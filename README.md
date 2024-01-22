@@ -88,6 +88,9 @@ Here's an example of generating CrewAI scripts for a project management task:
 python3 autocrew.py "Project Management" -a -m 3 -v
 ```
 
+This version includes tools to search and scrape the internet, and allows non local ollama and browserless instances to be used (remote dev)
+Its all full of hacks - don't use it :) 
+
 This command generates three CrewAI scripts for the "Project Management" goal, automatically runs them, and provides detailed output.
 
 ## Contributing
